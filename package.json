@@ -1,0 +1,32 @@
+{
+  "name": "node-es7-babel-template",
+  "version": "1.0.0",
+  "description": "Bare minimum to write es7 javascript code",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node --presets env app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongDevelop/node-es7-babel-template.git"
+  },
+  "keywords": [
+    "es7",
+    "node",
+    "babel",
+    "template",
+    "javascipt",
+    "es2015"
+  ],
+  "author": "Ben Tong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tongDevelop/node-es7-babel-template/issues"
+  },
+  "homepage": "https://github.com/tongDevelop/node-es7-babel-template#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
